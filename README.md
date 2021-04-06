@@ -1,6 +1,6 @@
 # GestionDemande-Maintenance  
 
-(Format: "numéroTâche-IntituléBranche")  
+(Format: "numéroTâche-IntituléTache")  
 [R] Réussi  
 [FT] Fait mais non-testé  
 [NR] Non-Réussi  
@@ -15,3 +15,8 @@
 2-tableauPaysTVA [FNT]  
 3-montantTTCAddition [FNT]  
 8-tableauStaticReduction [FNT]  
+
+## Sprint 2  
+(A partir d'ici 1 seule personne a codé en partage d'écran car c'était trop confus avec les branches et le temps imparti).  
+3-montantTTCAddition [FNT]  
+4-RemplcementMontantParTauxTVA [FNT]  
