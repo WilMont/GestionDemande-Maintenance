@@ -1,11 +1,4 @@
-console.log("Hello World");
+const TableauPaysTVA = require('./TableauPaysTVA');
 
+TableauPaysTVA.afficherTableauPaysTVA();
 
-function Saisie_HT_TVA(){
-    console.log("Entrer le montant de HT : ")
-    
-    console.log("Entrer le montant de TVA : ")
-
-
-    )
-}
