@@ -1,5 +1,5 @@
 function afficherTableauPaysTVA() {
-    console.log(
+    return(
         "╔═══════════╦═══════╗\n" +
         "║ Code Pays ║ % TVA ║\n" +
         "╠═══════════╬═══════╣\n" +

@@ -8,7 +8,7 @@ const readline = require('readline').createInterface({
 var tabMontant = [];
 var tabReduction = [];
 
-TesterMethode();
+//TesterMethode();
 function InitialiserTableau (){
     tabMontant.push("1000");
     tabMontant.push("5000");
@@ -52,8 +52,8 @@ affichage += "╚═══════════╩═════════
     return affichage;
 
 }
-function TesterMethode () {
-    test.assert(AfficherTableauReduction(), "╔═══════════╦═════════════╗\n║  Montant  ║ % Reduction ║\n╠═══════════╬═════════════╣\n║   1000    ║      3      ║\n║   5000    ║      5      ║\n║   7000    ║      7      ║\n║   10000   ║      10     ║\n║   50000   ║      15     ║\n╚═══════════╩═════════════╝")
-}
+// function TesterMethode () {
+//     test.assert(AfficherTableauReduction(), "╔═══════════╦═════════════╗\n║  Montant  ║ % Reduction ║\n╠═══════════╬═════════════╣\n║   1000    ║      3      ║\n║   5000    ║      5      ║\n║   7000    ║      7      ║\n║   10000   ║      10     ║\n║   50000   ║      15     ║\n╚═══════════╩═════════════╝")
+// }
 
 module.exports = {AfficherTableauReduction};
